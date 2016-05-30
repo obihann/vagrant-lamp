@@ -1,5 +1,16 @@
 # Vagrant LAMP
 
+A Vagrant box based containing Ubuntu linux, Apache, MySQL and PHP. Provisioned with puppet and ready to deploy. 
+
+Fork us:   
+[https://github.com/obihann/vagrant-lamp/](https://github.com/obihann/vagrant-lamp/)
+
+Download the latest box:   
+[https://atlas.hashicorp.com/obihann/boxes/lamp/](https://atlas.hashicorp.com/obihann/boxes/lamp/)
+
+Install the latest box:   
+```$ vagrant init obihann/lamp; vagrant up --provider virtualbox```
+
 ## Useful Info
 
 ### Software Versions
@@ -37,3 +48,8 @@
 
 - 0.0.3 - fixing issue with `Vagrantfile` config attempting to load puppet modules that didn't exist
 - 0.0.2 - update of `Vagrantfile` to create a `www` folder that is a symlink to `/var/www`
+
+##License
+This tool is protected by the [GNU General Public License v2](http://www.gnu.org/licenses/gpl-2.0.html).
+
+Copyright [Jeffrey Hann](http://jeffreyhann.ca/) 2016
