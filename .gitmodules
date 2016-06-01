@@ -16,3 +16,9 @@
 [submodule "puppet/modules/base"]
 	path = puppet/modules/base
 	url = git@bitbucket.org:obihann/puppet-base.git
+[submodule "modules/composer"]
+	path = modules/composer
+	url = git://github.com/tPl0ch/puppet-composer.git
+[submodule "puppet/modules/composer"]
+	path = puppet/modules/composer
+	url = git://github.com/tPl0ch/puppet-composer.git
