@@ -1,18 +1,14 @@
 # Configure apt to update for installation of every package
 Class['apt::update'] -> Package <| provider == 'apt' |>
 
-package { [
-  "redis",
-  "memcached",
-  "sqlite"
-  ]:
-  ensure => "installed"
-}
-
 # Include our modules
+class { 'puppi':
+  install_dependencies => false,
+}
 include apt
 include base
+class { 'redis': }
 include php
-include apache::php
+class { 'apache': }
 include mysql
 include composer
