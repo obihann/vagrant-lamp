@@ -37,14 +37,16 @@ Install the latest box:
 ### Puppet Modules
 
 - [puppetlabs/puppetlabs-apt](https://github.com/puppetlabs/puppetlabs-apt)
-- [obihann/puppet-apache2](https://bitbucket.org/obihann/puppet-apache)
+- [puppetlabs/puppetlabs-concat](https://github.com/puppetlabs/puppetlabs-concat)
+- [puppetlabs/puppetlabs-git](https://github.com/puppetlabs/puppetlabs-git)
 - [https://github.com/tPl0ch/puppet-composer](https://github.com/tPl0ch/puppet-composer)
-- [https://github.com/puphpet/puppetlabs-mysql](https://github.com/puphpet/puppetlabs-mysql)
 - [https://github.com/fsalum/puppet-redis](https://github.com/fsalum/puppet-redis)
 - [https://github.com/example42/puppi](https://github.com/example42/puppi)
-- [https://github.com/puphpet/puppetlabs-mysql](https://github.com/puphpet/puppetlabs-mysql)
-- [obihann/puppet-php5](https://bitbucket.org/obihann/puppet-php)
+- [https://github.com/example42/puppet-apache](https://github.com/example42/puppet-apache)
+- [obihann/puppet-base](https://bitbucket.org/obihann/puppet-base)
+- [obihann/puppet-php](https://bitbucket.org/obihann/puppet-php)
 - [obihann/puppet-mysql](https://bitbucket.org/obihann/puppet-mysql)
+- [obihann/puppet-apache2](https://bitbucket.org/obihann/puppet-apache)
 
 ### PHP Packages
 
