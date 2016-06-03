@@ -22,8 +22,13 @@ Install the latest box:
 - perl 5.14.2
 - ruby 1.8.7
 - MySQL  Ver 14.14 Distrib 5.5.49
-- Apache 2.4.20
+- apache 2.4.20
 - PHP 5.6.22-3
+- memcached 1.4.13
+- sqlite3 3.7.9
+- curl 7.22.0
+- composer 1.1.2
+- redis version 2.2.12
 
 ### Base Image
 
@@ -43,17 +48,21 @@ Install the latest box:
 
 ### PHP Packages
 
-- php-mysql
-- php-imagick
-- php-mcrypt
+- php5.6-curl
+- php5.6-gd
+- php5.6-imagick
+- php5.6-mbstring
+- php5.6-mysql
+- php5.6-mcrypt
+- php5.6-sqlite3
+- php5.6-xml
+- php5.6-zip
+- php5.6-xml
 - php-pear
-- php-curl
-- php-xml
-- php-gd
-- php-sqlite3
 
 ## Changelog
 
+- 0.1.0 - changes to php modules, puppet modules, and versions 
 - 0.0.3 - fixing issue with `Vagrantfile` config attempting to load puppet modules that didn't exist
 - 0.0.2 - update of `Vagrantfile` to create a `www` folder that is a symlink to `/var/www`
 
