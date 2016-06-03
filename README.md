@@ -23,7 +23,7 @@ Install the latest box:
 - ruby 1.8.7
 - MySQL  Ver 14.14 Distrib 5.5.49
 - Apache 2.2.22
-- PHP 5.4.45-3
+- PHP 5.6.22-3
 
 ### Base Image
 
@@ -33,16 +33,24 @@ Install the latest box:
 
 - [puppetlabs/puppetlabs-apt](https://github.com/puppetlabs/puppetlabs-apt)
 - [obihann/puppet-apache2](https://bitbucket.org/obihann/puppet-apache)
+- [https://github.com/tPl0ch/puppet-composer](https://github.com/tPl0ch/puppet-composer)
+- [https://github.com/puphpet/puppetlabs-mysql](https://github.com/puphpet/puppetlabs-mysql)
+- [https://github.com/fsalum/puppet-redis](https://github.com/fsalum/puppet-redis)
+- [https://github.com/example42/puppi](https://github.com/example42/puppi)
+- [https://github.com/puphpet/puppetlabs-mysql](https://github.com/puphpet/puppetlabs-mysql)
 - [obihann/puppet-php5](https://bitbucket.org/obihann/puppet-php)
 - [obihann/puppet-mysql](https://bitbucket.org/obihann/puppet-mysql)
 
 ### PHP Packages
 
-- php5-mysql
-- php5-imagick
-- php5-mcrypt
+- php-mysql
+- php-imagick
+- php-mcrypt
 - php-pear
-- php5-curl
+- php-curl
+- php-xml
+- php-gd
+- php-sqlite3
 
 ## Changelog
 
