@@ -18,9 +18,6 @@ Exec['apt_update'] ->
 class { "apache": } ->
 package { "libapache2-mod-php5.6":
   ensure => "present"
-} ->
-exec { 'a2enmod php5.6':
-  path    => '/usr/local/bin/:/bin/',
 }
 
 include mysql
