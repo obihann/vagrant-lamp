@@ -6,7 +6,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.network "private_network", type: "dhcp" 
 
-  config.vm.synced_folder "www", "/var/www", create: true
+  config.vm.synced_folder "www", "/var/www/html", create: true
 
   config.vm.provision "shell", path: "https://gist.githubusercontent.com/obihann/cc92955cc198b0601bb9a0bebadf4851/raw/f1eed92f15168baeb021dac28eac781dc2f3b151/upgrade_puppet.sh"
 

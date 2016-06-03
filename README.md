@@ -22,7 +22,7 @@ Install the latest box:
 - perl 5.14.2
 - ruby 1.8.7
 - MySQL  Ver 14.14 Distrib 5.5.49
-- Apache 2.2.22
+- Apache 2.4.20
 - PHP 5.6.22-3
 
 ### Base Image
